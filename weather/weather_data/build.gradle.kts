@@ -3,7 +3,7 @@ apply {
 }
 
 dependencies {
-    "implementation"(project(Modules.core))
+//    "implementation"(project(Modules.core))
     "implementation"(project(Modules.weatherDomain))
 
     "implementation"(Retrofit.okHttp)
